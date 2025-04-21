@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get("/rules", {:controller => "move", :action => "rules"}) 
+  get("/", {:controller => "move", :action => "rules"}) 
 
   get("/rock", {:controller => "move", :action => "rock"}) 
 
